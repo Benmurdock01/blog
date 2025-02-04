@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Amature Data Sciencist 
+title: Amature Data Scientist
 email: bjm259@byu.edu 
 description: "Really just here to learn by trial and error, I am not sure if any of my posts
 will make any sense"
