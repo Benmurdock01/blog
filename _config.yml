@@ -24,7 +24,7 @@ description: "Really just here to learn by trial and error, I am not sure if any
 will make any sense"
 baseurl: "/blog" # the name of the repository 
 url: "https://benmurdock01.github.io" #  change this to "https://<your-github-username>.github.io"
-image: /assets/images/headerimg.jpg
+image: /assets/images/via_f.jpg
 author: Ben Murdock
 copyright: BM # Your initials or name or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 
