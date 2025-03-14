@@ -60,10 +60,11 @@ After merging and cleaning, the dataset contained:
 ### **Visualizations**
 To illustrate these findings, I generated several charts, including:
 - **Scatter plots** showing the relationship between offensive ranking and win percentage.
-![alt text](Offens_rank_vs_Win_Perc.png)
+'/assets/images/mt_timp.jpg'
 
 - **Boxplots** comparing turnover margins across winning and losing teams.
 ![alt text](box_plot.png)
+
 - **Time series plots** highlighting changes in passing vs. rushing trends over seasons.
 ![alt text](time_series.png)
 
