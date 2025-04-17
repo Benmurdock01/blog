@@ -6,12 +6,6 @@ description: Go Cougs
 image: "/assets/images/post3cover.jpg"
 ---
 
-# Exploring College Football Success
-
-**Reading time:** ~5 minutes
-
----
-
 ## Introduction & Motivation
 
 College football captivates millions each fall, and I am sure several people make and loss a collective million in sports betting. It seems that with vast array of data that predicting the winner should be much more robust than it is.
@@ -29,7 +23,9 @@ Using exploratory data analysis (EDA), one standout finding emerged:
 - Across 970 team‑seasons, the **Pearson correlation** between **Total Offensive Yards** and **Wins** was **0.74**, indicating a strong positive relationship.  
 - A secondary—but still substantial—correlation of **0.62** exists between **Yards per Offensive Play** and Wins, highlighting the importance of efficiency.
 
-![Scatter plot of offensive yards vs wins](https://github.com/Benmurdock01/blog/blob/5081b0ff7a3599b7c98987e0c0c8b0c0af209762/_posts/image1post3.png)
+![Scatter plot of offensive yards vs wins](/assets/images/postimage3.1.jpg)
+
+
 *Figure 1: Scatter plot showing Total Offensive Yards vs. Wins (2013–2020)*
 
 This isn’t surprising—moving the chains and controlling the clock often translates to points on the board. But visualizing it across **all** teams and seasons drives the point home, revealing outliers (e.g., high yardage with fewer wins due to turnovers or defensive lapses).
