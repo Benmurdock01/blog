@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Finding the Winner"
+author: Ben Murdock
+description: Go Cougs
+image: "/assets/images/post3cover.jpg"
+---
+
 # Exploring College Football Success
 
 **Reading time:** ~5 minutes
