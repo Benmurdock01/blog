@@ -29,7 +29,7 @@ Using exploratory data analysis (EDA), one standout finding emerged:
 - Across 970 team‑seasons, the **Pearson correlation** between **Total Offensive Yards** and **Wins** was **0.74**, indicating a strong positive relationship.  
 - A secondary—but still substantial—correlation of **0.62** exists between **Yards per Offensive Play** and Wins, highlighting the importance of efficiency.
 
-![Scatter plot of offensive yards vs wins](https://raw.githubusercontent.com/benmurdock01/blog/_posts/image1post3.png)
+![Scatter plot of offensive yards vs wins](https://github.com/Benmurdock01/blog/blob/5081b0ff7a3599b7c98987e0c0c8b0c0af209762/_posts/image1post3.png)
 *Figure 1: Scatter plot showing Total Offensive Yards vs. Wins (2013–2020)*
 
 This isn’t surprising—moving the chains and controlling the clock often translates to points on the board. But visualizing it across **all** teams and seasons drives the point home, revealing outliers (e.g., high yardage with fewer wins due to turnovers or defensive lapses).
@@ -81,8 +81,7 @@ To make these insights accessible, I developed a **Streamlit** app that lets you
 2. **Zoom In**  
    - Switch to the **Team Analysis** tab, pick a single team, and visualize how their offensive strategy evolved.  
 3. **Experiment**  
-   - Swap in **Yards per Play** to see if efficiency improved under different coordinators.  
-   - Check **Turnovers Lost** (coming soon!) to investigate “turnover margin” effects.  
+   - Swap in **Yards per Play** to see if efficiency improved under different coordinators.   
 4. **Draw Conclusions**  
    - Use the app to support hypotheses—e.g., “Did Team X’s new quarterback boost offensive efficiency in Year Y?”
 
