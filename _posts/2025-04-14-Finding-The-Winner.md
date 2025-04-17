@@ -1,4 +1,4 @@
-# Exploring College Football Success: How Offensive Production Drives Wins (and a New Interactive Dashboard to Dive Deeper)
+# Exploring College Football Success
 
 **Reading time:** ~5 minutes
 
@@ -6,11 +6,9 @@
 
 ## Introduction & Motivation
 
-College football captivates millions each fall, but beyond the highlights and rivalries lie rich datasets that can reveal **what truly drives team success**. As a stats student at BYU—and a lifelong fan—I’ve always wondered:
+College football captivates millions each fall, and I am sure several people make and loss a collective million in sports betting. It seems that with vast array of data that predicting the winner should be much more robust than it is.
 
-> **Which on‑field metrics most strongly predict a team’s winning record?**
-
-Is it sheer volume of plays, total yardage, efficiency, or perhaps turnover management? To answer this, I’ve curated a season‑by‑season dataset of NCAA teams (2013–2020) and built an interactive **Streamlit** app that lets you explore the relationships between key statistics and wins.
+So what variables are most important to predicting the winner? Is it sheer volume of plays, total yardage, efficiency, or perhaps turnover management? To answer this, I’ve curated a season‑by‑season dataset of NCAA teams (2013–2020) and built an interactive **Streamlit** app that lets you explore the relationships between key statistics and wins.
 
 ---
 
@@ -23,7 +21,7 @@ Using exploratory data analysis (EDA), one standout finding emerged:
 - Across 970 team‑seasons, the **Pearson correlation** between **Total Offensive Yards** and **Wins** was **0.74**, indicating a strong positive relationship.  
 - A secondary—but still substantial—correlation of **0.62** exists between **Yards per Offensive Play** and Wins, highlighting the importance of efficiency.
 
-![Scatter plot of offensive yards vs wins](https://raw.githubusercontent.com/your-username/football-eda-dashboard/main/screenshots/yardage_vs_wins.png)
+![Scatter plot of offensive yards vs wins](https://raw.githubusercontent.com/benmurdock01/blog/_posts/image1post3.png)
 *Figure 1: Scatter plot showing Total Offensive Yards vs. Wins (2013–2020)*
 
 This isn’t surprising—moving the chains and controlling the clock often translates to points on the board. But visualizing it across **all** teams and seasons drives the point home, revealing outliers (e.g., high yardage with fewer wins due to turnovers or defensive lapses).
@@ -52,7 +50,7 @@ To make these insights accessible, I developed a **Streamlit** app that lets you
 5. **Drill down** into a single team’s trends over time  
 6. **Access** usage tips via an expander  
 
-![Sidebar filters in the Streamlit app](https://raw.githubusercontent.com/your-username/football-eda-dashboard/main/screenshots/sidebar_metrics.png)
+![Sidebar filters in the Streamlit app](https://raw.githubusercontent.com/benmurdock01/blog/_posts/image2.3png)
 *Figure 2: Sidebar widgets for filtering teams, seasons, metrics, and chart types*
 
 ### Interactive Features at a Glance
